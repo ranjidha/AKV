@@ -119,7 +119,7 @@ def main():
         padding: 12px 22px;
         margin: 6px 6px 12px 0px;
         background-color: #1f77b4;      /* Accessible blue */
-        color: #ffffff !important;
+        color: #ffffff;
         text-decoration: none;
         border-radius: 8px;
         font-size: 1rem;
