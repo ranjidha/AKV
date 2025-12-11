@@ -73,16 +73,11 @@ def main():
             "https://avasudev18.github.io/PFolioAV.github.io/index.html",
         )
 
-    st.divider()
+ st.divider()
 
     # -----------------------------------------------------
     # CORE EXPERTISE
     # -----------------------------------------------------
-st.subheader("Explore the Portfolio")
-
-# -----------------------------------------------------
-# ACCESSIBLE NAVIGATION BUTTONS (below Quick Links)
-# -----------------------------------------------------
 st.subheader("Explore the Portfolio")
 
 accessible_button_style = """
@@ -90,7 +85,7 @@ accessible_button_style = """
     padding: 12px 22px;
     margin: 6px 6px 12px 0px;
     background-color: #1f77b4;      /* Accessible blue */
-    color: white !important;
+    color: #ffffff ;
     text-decoration: none;
     border-radius: 8px;
     font-size: 1rem;
