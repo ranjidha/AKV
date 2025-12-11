@@ -80,29 +80,34 @@ def main():
     # -----------------------------------------------------
 st.subheader("Explore the Portfolio")
 
-button_style = """
+# -----------------------------------------------------
+# ACCESSIBLE NAVIGATION BUTTONS (below Quick Links)
+# -----------------------------------------------------
+st.subheader("Explore the Portfolio")
+
+accessible_button_style = """
     display: inline-block;
     padding: 12px 22px;
-    margin: 6px;
-    background-color: #0d6efd;
+    margin: 6px 6px 12px 0px;
+    background-color: #1f77b4;      /* Accessible blue */
     color: white !important;
     text-decoration: none;
     border-radius: 8px;
     font-size: 1rem;
+    font-weight: 500;
 """
 
 st.markdown(
     f"""
-    <a href="?page=Bio" style="{button_style}">🧑‍💼 Bio</a>
-    <a href="?page=Live_Implementations" style="{button_style}">💼 Live Implementations</a>
-    <a href="?page=Customer_Success_Leadership" style="{button_style}">📊 Customer Success Leadership</a>
+    <a href="?page=Bio" style="{accessible_button_style}">🧑‍💼 Bio</a>
+    <a href="?page=Live_Implementations" style="{accessible_button_style}">💼 Live Implementations</a>
+    <a href="?page=Customer_Success_Leadership" style="{accessible_button_style}">📊 Customer Success Leadership</a>
     <br>
-    <a href="?page=Thought_Leadership_&_Innovation_Lab" style="{button_style}">🤖 Innovation Lab</a>
-    <a href="?page=Experience_&_Education" style="{button_style}">📜 Experience & Education</a>
+    <a href="?page=Thought_Leadership_&_Innovation_Lab" style="{accessible_button_style}">🤖 Innovation Lab</a>
+    <a href="?page=Experience_&_Education" style="{accessible_button_style}">📜 Experience & Education</a>
     """,
     unsafe_allow_html=True,
 )
-
 
 st.divider()
 
