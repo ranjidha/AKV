@@ -109,11 +109,11 @@ st.divider()
     # -----------------------------------------------------
     # FOOTER INFO
     # -----------------------------------------------------
-    st.info(
+st.info(
         "Use the sidebar or the cards above to navigate Anil's portfolio: "
         "Bio, live product implementations, customer success leadership, "
         "innovation lab, and full experience and education."
-    )
+ )
 
 
 if __name__ == "__main__":
