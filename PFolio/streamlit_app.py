@@ -70,3 +70,25 @@ def main():
 - RAG & Retrieval Pipelines  
 - Recommendations & Forecasting  
             """
+        )
+
+    with col2:
+        st.markdown(
+            """
+### Enterprise Systems  
+- Oracle Field Service  
+- ERP Commerce Integrations  
+- SaaS Platform Architecture  
+
+### Customer Success  
+- Adoption Frameworks  
+- Renewal Strategy  
+- NRR / GRR / CSAT Analytics  
+            """
+        )
+
+    st.info("Use the **sidebar navigation** to explore Bio, Case Studies, Leadership Work, Innovation Lab, and Experience.")
+
+
+if __name__ == "__main__":
+    main()
